@@ -5,7 +5,7 @@ def analyze_power_consumption(data):
     
     sensors = [0] * 5
     for i in range(5):
-        sensors[i] = sum(data[i::5]) // 4
+        sensors[i] = sum(data[i::5]) 
     
     max_avg = max(sensors)
     
